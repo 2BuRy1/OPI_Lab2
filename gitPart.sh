@@ -71,7 +71,7 @@ echo 'red did r7'
 # r8 blue
 git config --global user.name "blue"
 git config --global user.mail "blue@jupiter.ru"
-git checkout -b "eighteenth_branch"
+git checkout -b eighteenth_branch
 cp -r ../commits/commit8/. ./src
 git add .
 git commit -m "blue did r8"
@@ -106,6 +106,13 @@ git commit -m 'red did r11'
 echo 'red did r11'
 
 # r12 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout -b second_branch
+cp -r ../commits/commit12/. ./src
+git add .
+git commit -m "blue did r12"
+echo 'blue did r12'
 
 # r13 red
 git checkout thirteenth_branch
@@ -122,8 +129,20 @@ git commit -m 'red did r14'
 echo 'red did r14'
 
 # r15 blue
+git config --global user.name "blue"
+git config --global user.name "blue@jupiter.ru"
+git checkout -b second_branch
+cp -r ../commits/commit15/. ./src
+git add .
+git commit -m "blue did r15"
+echo 'blue did r15'
 
 # r16 blue
+git checkout -b ninth_branch
+cp -r ../commits/commit16/. ./src
+git add .
+git commit -m "blue did r16"
+echo 'blue did r16'
 
 # r17
 git config --global user.name "red"
@@ -135,18 +154,54 @@ git commit -m 'red did r17'
 echo 'red did r17'
 
 # r18 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout -b tenth_branch
+cp -r ../commits/commit18/. ./src
+git add .
+git commit -m "blue did 18"
+echo 'blue did 18'
 
 # r19 blue
+git checkout ninth_branch
+cp -r ../commits/commit19/. ./src
+git add .
+git commit -m "blue did r19"
+echo 'blue did r19'
 
 # r20 blue
+git checkout eighteenth_branch
+cp -r commits/commit20/. ./src
+git add .
+git commit -m "blue did r20"
+echo 'blue did r20'
 
 # r21 blue
+git checkout -b sixth_branch
+cp -r commits/commit21/. ./src
+git add .
+git commit -m "blue did r21"
+echo 'blue did r21'
 
 # r22 blue
+cp -r commits/commit22/. ./src
+git add .
+git commit -m "blue did r22"
+echo 'blue did r22'
 
 # r23 blue
+git checkout sixteenth_branch
+cp -r commits/commit23/. ./src
+git add .
+git commit -m "blue did r23"
+echo 'blue did r23'
 
 # r24 blue
+git checkout tenth_branch
+cp -r commits/commit24/. ./src
+git add .
+git commit -m "blue did r24"
+echo 'blue did r24'
 
 # r25 red
 git config --global user.name "red"
