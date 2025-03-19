@@ -14,10 +14,12 @@ git commit -m 'red did r0'
 echo 'red did r0' 
 
 # r1 blue
-
-
-
-
+git config --global user.name "blue"
+git config --global user.mai; "blue@jupiter.ru"
+cp -r ../commits/commit1/. ./src
+git add .
+git commit -m "blue did r1"
+echo 'blue did r1'
 
 # r2 red
 git config --global user.name "red"
