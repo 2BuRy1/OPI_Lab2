@@ -15,7 +15,7 @@ echo 'red did r0'
 
 # r1 blue
 git config --global user.name "blue"
-git config --global user.mai; "blue@jupiter.ru"
+git config --global user.mail "blue@jupiter.ru"
 cp -r ../commits/commit1/. ./src
 git add .
 git commit -m "blue did r1"
@@ -40,10 +40,26 @@ git commit -m 'red did r3'
 echo 'red did r3'
 
 # r4 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout -b third_branch
+cp -r ../commits/commit4/. ./src
+git add .
+git commit -m "blue did r4"
+echo 'blue did r4'
 
 # r5 blue
+git checkout -b "fourteenth_branch"
+cp -r ../commits/commit5/. ./src
+git add .
+git commit -m "blue did r5"
+echo 'blue did r5'
 
 # r6 blue
+cp -r ../commits/commit6/. ./src
+git add .
+git commit -m "blue did r6"
+echo 'blue did r6'
 
 # r7 
 git config --global user.name "red"
@@ -55,6 +71,13 @@ git commit -m 'red did r7'
 echo 'red did r7'
 
 # r8 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout -b "eighteenth_branch"
+cp -r ../commits/commit8/. ./src
+git add .
+git commit -m "blue did r8"
+echo 'blue did r8'
 
 # r9 red
 git config --global user.name "red"
@@ -66,6 +89,14 @@ git commit -m 'red did r9'
 echo 'red did r9'
 
 # r10 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiterium.ru"
+git checkout thirteenth_branch
+git checkout -b fifth_branch
+cp -r ../commits/commit10/. ./src
+git add .
+git commit -m "blue did 10"
+echo 'blue did 10'
 
 # r11 red
 git config --global user.name "red"
