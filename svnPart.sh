@@ -1,6 +1,7 @@
 RepoPath="file://$(pwd)/Repository2005"
 
-
+mkdir svn-part
+cd svn-part
 svnadmin create "$(pwd)/Repository2005"
 svn mkdir $RepoPath/branches $RepoPath/trunk -m "added dirs"
 svn checkout $RepoPath/trunk working_copy
