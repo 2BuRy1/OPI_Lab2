@@ -221,6 +221,13 @@ echo 'red did r26'
 
 
 # r27 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout fourteenth_branch
+cp -r ../commits/commit27/. ./src
+git add .
+git commit -m "blue did r27"
+echo 'blue did r27'
 
 
 # r28
@@ -249,12 +256,33 @@ git commit -m 'red did r30'
 echo 'red did r30'
 
 # r31 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout second_branch
+cp -r ../commits/commit31/. ./src
+git add .
+git commit -m "blue did r31"
+echo 'blue did r31'
 
 # r32 blue
+git checkout sixth_branch
+cp -r ../commits/commit32/. ./src
+git add .
+git commit -m "blue did r32"
+echo 'blue did r32'
 
 # r33 blue
+cp -r ../commits/commit33/. ./src
+git add .
+git commit -m "blue did r33"
+echo 'blue did r33'
 
 # r34 blue
+git checkout -b twelfth_branch
+cp -r ../commits/commit34/. ./src
+git add .
+git commit -m "blue did r34"
+echo 'blue did r34'
 
 # r35 red
 git config --global user.name "red"
@@ -287,6 +315,13 @@ git commit -m 'red did r38'
 echo 'red did r38'
 
 # r39 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout fifth_branch 
+cp -r ../commits/commit39/. ./src
+git add .
+git commit -m "blue did r39"
+echo 'blue did r39'
 
 # r40 red
 git config --global user.name "red"
@@ -299,12 +334,39 @@ echo 'red did r40'
 
 
 # r41 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout sixth_branch
+cp -r ../commits/commit41/. ./src
+git add .
+git commigt -m "blue did r41"
+echo 'blue did r41'
 
 # r42 blue
+cp -r ../commits/commit42/. ./src
+git add .
+git commit -m "blue did r42"
+echo 'blue did r42'
 
 # r43 blue DO MERGE 🥹
+git checkout fourth_branch
+if git merge sixth_branch --no-commit; then
+	echo 'Осилили мержик :)'
+else 
+	echo 'не осилили мержик :('
+fi
+cp -r ../commits/commit43/. ./src
+git add .
+git commit -m "blue did r43"
+echo 'blue did r43'
+
 
 # r44 blue
+git checkout fourteenth_branch
+cp -r ../commits/commit44/. ./src
+git add .
+git commit -m "blue did r44"
+echo 'blue did r44'
 
 # r45 red
 git config --global user.name "red"
@@ -316,8 +378,25 @@ git commit -m 'red did r45'
 echo 'red did r45'
 
 # r46 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout twelfth_branch
+cp -r ../commits/commit46/. ./src
+git add .
+git commit -m "blue did r46"
+echo 'blue did r46'
 
 # r47 blue DO MERGE 🥹
+git checkout tenth_branch
+if git merge twelfth_branch --no-commit; then
+	echo 'оформили мержик'
+else 
+	echo 'заруинили мержик'
+fi
+cp -r ../commits/commit47/. ./src
+git add .
+git commit -m "blue did r47"
+echo 'blue did r47'
 
 # r48 red
 git config --global user.name "red"
@@ -337,6 +416,13 @@ git commit -m 'red did r49'
 echo 'red did r49'
 
 # r50 blue
+git config --global user.name "blue"
+git config --global user.mail "blue@jupiter.ru"
+git checkout fourteenth_branch
+cp -r ../commits/commit50/. ./src
+git add .
+git commit -m "blue did r50"
+echo 'blue did r50'
 
 # r51 red
 git config --global user.name "red"
