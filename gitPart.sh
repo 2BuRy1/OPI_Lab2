@@ -59,7 +59,7 @@ git add .
 git commit -m "blue did r6"
 echo 'blue did r6'
 
-# r7
+# r7 red
 git config --global user.name "red"
 git config --global user.mail "red@itmo.ru"
 git checkout first_branch
