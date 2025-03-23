@@ -857,7 +857,7 @@ echo 'blue did r93'
 cp -r ../commits/commit94/. ./src
 git add .
 git commit -m "blue did r94"
-exho 'blue did r94'
+echo 'blue did r94'
 
 # r95 red
 git config --global user.name "red"
