@@ -355,11 +355,11 @@ if git merge sixth_branch --no-commit; then
 else
 	echo 'не осилили мержик 🤬'
 fi
+exit 0
 cp -r ../commits/commit43/. ./src
 git add .
 git commit -m "blue did r43"
 echo 'blue did r43'
-
 
 # r44 blue
 git checkout fourteenth_branch
@@ -872,3 +872,7 @@ cp -r ../commits/commit95/. ./src
 git add .
 git commit -m 'red did r95'
 echo 'red did r95'
+
+
+
+git log --graph
